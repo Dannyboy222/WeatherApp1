@@ -27,15 +27,15 @@ fetch('https://api.openweathermap.org/data/2.5/forecast/daily?q='+inputValue.val
     var humiValue = data['humidity'];
     var speedValue = data['speed'];
 
-    mainDisplay.innerHTML = 'weather: '+ weatherValue;
-    descripDisplay.innerHTML ='description'+descripValue;
-    mornDisplay.innerHTML ='';
-    nightDisplay.innerHTML ='';
-    tempMinDisplay.innerHTML ='';
-    tempMaxDisplay.innerHTML ='';
-    pressDisplay.innerHTML ='';
-    humiDisplay.innerHTML ='';
-    speedDisplay.innerHTML ='';
+    mainDisplay.innerHTML = 'Weather: '+ weatherValue;
+    descripDisplay.innerHTML ='Description: '+descripValue;
+    mornDisplay.innerHTML ='Morning: '+mornValue;
+    nightDisplay.innerHTML ='Night: '+nightValue;
+    tempMinDisplay.innerHTML ='Temperature Min: '+tempMinValue;
+    tempMaxDisplay.innerHTML ='Temperature Max: '+tempMaxValue;
+    pressDisplay.innerHTML ='Pressure: '+pressValue;
+    humiDisplay.innerHTML ='Humidity: '+humiValue;
+    speedDisplay.innerHTML ='Speed: '+speedValue;
 
 
 })
