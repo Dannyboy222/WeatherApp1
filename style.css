@@ -89,3 +89,12 @@ span {
 .display p {
     font-size: 30px;
 }
+
+table {
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+th {
+    margin: 30px;
+}
