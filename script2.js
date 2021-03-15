@@ -8,7 +8,7 @@ var nightDisplay = document.querySelector('.night');
 var tempMinDisplay = document.querySelector('.temp.min');
 var tempMaxDisplay = document.querySelector('.temp.max');
 var pressDisplay = document.querySelector('.pressure');
-var humiDisplay = document.querySelector('.humid');
+var humiDisplay = document.querySelector('.humidity');
 var speedDisplay = document.querySelector('windSpeed');
 
 
